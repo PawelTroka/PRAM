@@ -1,0 +1,49 @@
+C:\Users\Adam\Desktop\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\chris\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.exe
+C:\Users\chris\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
+C:\Users\chris\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.exe
+C:\Users\chris\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.pdb
+C:\Users\chris\Desktop\Praca Magisterska\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\Praca Magisterska 3\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska 3\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska 3\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\Praca Magisterska 3\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska 3\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska 4\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\Praca Magisterska 4\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska 4\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska 4\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska 4\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska 5\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska 5\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska 5\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\Praca Magisterska 5\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska 5\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.exe
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\bin\Debug\PRAM Machine.pdb
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\MemoryCellView.baml
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\ProcessorView.baml
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\StatisticsDisplay.baml
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\DisplayControl.g.cs
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\MainWindow.g.cs
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\MemoryCellView.g.cs
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\ProcessorView.g.cs
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\StatisticsDisplay.g.cs
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine_MarkupCompile.cache
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine_MarkupCompile.lref
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\DisplayControl.baml
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\MainWindow.baml
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.g.resources

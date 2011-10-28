@@ -1,0 +1,20 @@
+﻿PRAM Machine
+
+
+exe
+C#
+.cs
+C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\
+PRAM_Machine
+none
+false
+DEBUG;TRACE
+
+5-190578753
+
+37-1714732315
+12-1547151337
+Gui\DisplayControl.xaml;Gui\MainWindow.xaml;Gui\MemoryCellView.xaml;Gui\ProcessorView.xaml;Gui\StatisticsDisplay.xaml;
+
+True
+
