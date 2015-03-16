@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{721FF02F-80CD-4CFF-88CA-89C555AE08BB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PRAM_Machine</RootNamespace>
+    <AssemblyName>PRAM Machine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gui\DisplayControl.xaml.cs">
+      <DependentUpon>DisplayControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\MemoryCellView.xaml.cs">
+      <DependentUpon>MemoryCellView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ProcessorView.xaml.cs">
+      <DependentUpon>ProcessorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\SimulatorGui.cs" />
+    <Compile Include="Gui\SizeConverter.cs" />
+    <Compile Include="Gui\StatisticsDisplay.xaml.cs">
+      <DependentUpon>StatisticsDisplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Machine\IPRAMMachine.cs" />
+    <Compile Include="Machine\PRAMMachine.cs" />
+    <Compile Include="Machine\Processor.cs" />
+    <Compile Include="Memory\IMemoryType.cs" />
+    <Compile Include="Memory\MemoryAddress.cs" />
+    <Compile Include="Memory\MemoryCell.cs" />
+    <Compile Include="Memory\MemoryTypes.cs" />
+    <Compile Include="Memory\PRAM.cs" />
+    <Compile Include="Memory\RWRequest.cs" />
+    <Compile Include="Models\PRAMMachineModel.cs" />
+    <Compile Include="Models\PRAMModel.cs" />
+    <Compile Include="Models\ProcessorModel.cs" />
+    <Compile Include="Samples\FastAdditionDivideAndConquer\FastAdditionDivideAndConquerProcessor.cs" />
+    <Compile Include="Samples\FastAdditionDivideAndConquer\FastAdditionDivideAndConquerSetup.cs" />
+    <Compile Include="Samples\FastAddition\FastAdditionProcessor.cs" />
+    <Compile Include="Samples\FastAddition\FastAdditionSetup.cs" />
+    <Compile Include="Samples\ListRanking\ListRankingProcessor.cs" />
+    <Compile Include="Samples\ListRanking\ListRankingSetup.cs" />
+    <Compile Include="Samples\LogicalAnd\LogicalAndProcessor.cs" />
+    <Compile Include="Samples\LogicalAnd\LogicalAndSetup.cs" />
+    <Compile Include="Samples\MatrixMultiplication\MatrixMultiplicationProcessor.cs" />
+    <Compile Include="Samples\MatrixMultiplication\MatrixMultiplicationSetup.cs" />
+    <Compile Include="Samples\Sorting\SortingProcessor.cs" />
+    <Compile Include="Samples\Sorting\SortingSetup.cs" />
+    <Compile Include="Samples\UsageSamples.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samples\Sorting\newCRCW.cs" />
+    <Compile Include="Samples\VectorAddition\VectorAddingProcessor.cs" />
+    <Compile Include="Samples\VectorAddition\VectorAdditionSetup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Gui\DisplayControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Gui\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Gui\MemoryCellView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Gui\ProcessorView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Gui\StatisticsDisplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
