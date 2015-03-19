@@ -27,7 +27,7 @@ namespace PRAM_Machine.Gui {
         private IPRAMMachine machine;
         public StatisticsDisplay statisticsDisplay;
         public MainWindow mainWindow;
-
+        private bool machineStarted = false;
         public DisplayControl() {
             InitializeComponent();
             this.machine = null;
@@ -37,7 +37,10 @@ namespace PRAM_Machine.Gui {
         }
 
         void DisplayControl_Loaded(object sender, RoutedEventArgs e) {
-            this.updateView();
+            //this.updateView();
+            //updateView();
+           //updateStatistics();
+            //updateStatisticsDisplay();
         }
 
 
@@ -168,13 +171,32 @@ namespace PRAM_Machine.Gui {
         }
 
         public void nextButton_Click(object sender, RoutedEventArgs e) {
-            machine.Step();
+           /* updateView();
+            updateStatistics();
+            updateStatisticsDisplay();
+            if (machine.IsStopped)
+            {
+                this.mainWindow.disableButtons();
+            }
+            else
+                machine.Step();*/
+
+             //BUG FIX
+            if (machineStarted)
+            {
+                machine.Step();
+            }
+            else
+            {
+                machineStarted = true;
+            }
             updateView();
             updateStatistics();
             updateStatisticsDisplay();
             if (machine.IsStopped) {
                 this.mainWindow.disableButtons();
             }
+             
         }
 
         public void updateStatistics() {
@@ -236,6 +258,7 @@ namespace PRAM_Machine.Gui {
         }
 
         private void nextTickButton_Click(object sender, RoutedEventArgs e) {
+            if(machineStarted)
             for (int i = 0; i < 3; i++) {
                 if (this.nextButton.IsEnabled) {
                     this.nextButton_Click(null, null);
@@ -243,6 +266,8 @@ namespace PRAM_Machine.Gui {
                     this.mainWindow.disableButtons();
                 }
             }
+            else
+                this.nextButton_Click(null, null);
         }
 
         private void runButton_Click(object sender, RoutedEventArgs e) {

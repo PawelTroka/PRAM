@@ -10,10 +10,10 @@ namespace PRAM_Machine.Samples {
            // SimulatorGui.Run(VectorAddition.VectorAdditionSetup.Setup(15));
            // SimulatorGui.Run(FastAdditionDivideAndConquer.FastAdditionDivideAndConquerSetup.Setup(20));
            // SimulatorGui.Run(LogicalAnd.LogicalAndSetup.Setup(5));
-          // SimulatorGui.Run(MatrixMultiplication.MatrixMultiplicationSetup.Setup(3));
+           //SimulatorGui.Run(MatrixMultiplication.MatrixMultiplicationSetup.Setup(3));
           //  SimulatorGui.Run(Sorting.SortingSetup.Setup(4));
           //  SimulatorGui.Run(ListRanking.ListRankingSetup.Setup(10));
-            SimulatorGui.Run(Find3OnesInMatrix.Find3OnesInMatrixSetup.Setup());
+            SimulatorGui.Run(Find3OnesInMatrix.Find3OnesInMatrixSetup.Setup(4));
         }
     }
 }
