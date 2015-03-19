@@ -47,6 +47,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComplexDataTypes\Matrix.cs" />
     <Compile Include="Gui\DisplayControl.xaml.cs">
       <DependentUpon>DisplayControl.xaml</DependentUpon>
     </Compile>
@@ -70,6 +71,8 @@
     <Compile Include="Memory\IMemoryType.cs" />
     <Compile Include="Memory\MemoryAddress.cs" />
     <Compile Include="Memory\MemoryCell.cs" />
+    <Compile Include="Memory\MemoryCellCollection.cs" />
+    <Compile Include="Memory\MemoryCellRepresentation.cs" />
     <Compile Include="Memory\MemoryTypes.cs" />
     <Compile Include="Memory\PRAM.cs" />
     <Compile Include="Memory\RWRequest.cs" />
@@ -80,6 +83,8 @@
     <Compile Include="Samples\FastAdditionDivideAndConquer\FastAdditionDivideAndConquerSetup.cs" />
     <Compile Include="Samples\FastAddition\FastAdditionProcessor.cs" />
     <Compile Include="Samples\FastAddition\FastAdditionSetup.cs" />
+    <Compile Include="Samples\Find3OnesInMatrix\Find3OnesInMatrixProcessor.cs" />
+    <Compile Include="Samples\Find3OnesInMatrix\Find3OnesInMatrixSetup.cs" />
     <Compile Include="Samples\ListRanking\ListRankingProcessor.cs" />
     <Compile Include="Samples\ListRanking\ListRankingSetup.cs" />
     <Compile Include="Samples\LogicalAnd\LogicalAndProcessor.cs" />
@@ -124,6 +129,7 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

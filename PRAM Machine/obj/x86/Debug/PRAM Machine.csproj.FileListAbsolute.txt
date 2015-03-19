@@ -47,3 +47,22 @@ C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PR
 C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\DisplayControl.baml
 C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\Gui\MainWindow.baml
 C:\Users\Adam\Desktop\Praca Magisterska 6\Pram Machine Simulator\PRAM Machine\PRAM Machine\obj\x86\Debug\PRAM Machine.g.resources
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\bin\Debug\PRAM Machine.exe
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\bin\Debug\PRAM Machine.pdb
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine.csprojResolveAssemblyReference.cache
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\MemoryCellView.baml
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\ProcessorView.baml
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\StatisticsDisplay.baml
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\DisplayControl.g.cs
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\MainWindow.g.cs
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\MemoryCellView.g.cs
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\ProcessorView.g.cs
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\StatisticsDisplay.g.cs
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine_MarkupCompile.cache
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine_MarkupCompile.lref
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\DisplayControl.baml
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\MainWindow.baml
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine.g.resources
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine.exe
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
