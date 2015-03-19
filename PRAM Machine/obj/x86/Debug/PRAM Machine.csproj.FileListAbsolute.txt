@@ -51,7 +51,6 @@ D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM M
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine.pdb
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\bin\Debug\PRAM Machine.exe
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\bin\Debug\PRAM Machine.pdb
-D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine.csprojResolveAssemblyReference.cache
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\MemoryCellView.baml
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\ProcessorView.baml
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\StatisticsDisplay.baml
@@ -66,3 +65,4 @@ D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM M
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\DisplayControl.baml
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\Gui\MainWindow.baml
 D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine.g.resources
+D:\Nauka\studia\Informatyka II stopień\ARiR-KAiMS\PRAM Machine Simulator\PRAM Machine\obj\x86\Debug\PRAM Machine.csprojResolveAssemblyReference.cache

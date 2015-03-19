@@ -40,6 +40,23 @@ namespace PRAM_Machine.Gui {
             this.updateView();
         }
 
+
+        private void drawEllipseAtPoint(Point point)
+        {
+            var ellipse = new Ellipse()
+            {
+                Fill = new SolidColorBrush() { Color = Color.FromArgb(255, 255, 255, 0) },
+                StrokeThickness = 2,
+                Stroke = Brushes.White,
+                Width = 10,
+                Height = 10,
+            };
+            Canvas.SetTop(ellipse, point.Y);
+            Canvas.SetLeft(ellipse, point.X);
+            arrowPaintingArea.Children.Add(ellipse);
+        }
+
+
         public void populateProcessorsGrid(List<ProcessorModel> processors) {
             for (int i = 0; i < processors.Count; i++) {
                 if (processorsGrid.ColumnDefinitions.Count <= i) {
@@ -203,18 +220,19 @@ namespace PRAM_Machine.Gui {
             this.statisticsDisplay.drawLines();
         }
 
-        private Point getProcessorLocation(ProcessorView processor) {
-            Point canvasLocation = paintingArea.PointToScreen(new Point(0, 0));
-            Point processorLocation = processor.PointToScreen(new Point(0, 0));
-            return new Point(processorLocation.X - canvasLocation.X + processor.ActualWidth / 2,
-                             processorLocation.Y - canvasLocation.Y + processor.ActualHeight);
+        private Point getProcessorLocation(ProcessorView processor)
+        {
+            Point processorLocation = processor.TranslatePoint(new Point(0, 0), arrowPaintingArea);
+
+            return new Point(processorLocation.X + processor.ActualWidth / 2, processorLocation.Y + processor.ActualHeight / 2);
         }
 
-        private Point getMemoryCellLocation(MemoryCellView memoryCell) {
-            Point canvasLocation = paintingArea.PointToScreen(new Point(0, 0));
-            Point memoryCellLocation = memoryCell.PointToScreen(new Point(0, 0));
-            return new Point(memoryCellLocation.X - canvasLocation.X + memoryCell.ActualWidth / 2,
-                             memoryCellLocation.Y - canvasLocation.Y);
+        private Point getMemoryCellLocation(MemoryCellView memoryCell)
+        {
+
+            var memoryCellLocation = memoryCell.TranslatePoint(new Point(0, 0), arrowPaintingArea);
+
+            return new Point(memoryCellLocation.X + memoryCell.ActualWidth / 2, memoryCellLocation.Y + memoryCell.ActualHeight / 2);
         }
 
         private void nextTickButton_Click(object sender, RoutedEventArgs e) {
