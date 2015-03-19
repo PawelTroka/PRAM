@@ -11,58 +11,42 @@
             <TabItem Header="Statistics" Name="tabStatistics" Background="White">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="0.9*" />
-                        <RowDefinition Height="0.1*" />
+                        <RowDefinition Height="0.9*"/>
+                        <RowDefinition Height="0.1*"/>
                     </Grid.RowDefinitions>
-                    <myControlls:StatisticsDisplay x:Name="statisticsDisplay" Grid.Row="0" />
+                    <myControlls:StatisticsDisplay x:Name="statisticsDisplay" Grid.Row="0"/>
                     <Grid Grid.Row="1">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                            <ColumnDefinition />
-                            <ColumnDefinition />
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
-                            <RowDefinition />
-                            <RowDefinition />
-                        </Grid.RowDefinitions>
-                        <Button Name="statisticsNextButton" Width="75" Height="23" Content="Next step"
-                                Click="statisticsNextButton_Click" Grid.Column="0" Grid.Row="1" />
-                        <Button Name="statisticsTickButton" Width="75" Height="23" Content="Next tick"
-                                Click="statisticsTickButton_Click" Grid.Column="1" Grid.Row="1" />
-                        <Button Name="statisticsRunButton" Width="75" Height="23" Content="Run"
-                                Click="statisticsRunButton_Click" Grid.Column="2" Grid.Row="1" />
-                        <TextBlock Text="Reads:" VerticalAlignment="Center" HorizontalAlignment="Center"
-                                   Grid.Column="4" Grid.Row="1" />
-                        <Line X1="0" X2="60" Y1="0" Y2="0" Stroke="DarkBlue" StrokeThickness="2"
-                              VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5" Grid.Row="1" />
-                        <TextBlock Text="Writes:" VerticalAlignment="Center" HorizontalAlignment="Center"
-                                   Grid.Column="6" Grid.Row="1" />
-                        <Line X1="0" X2="60" Y1="0" Y2="0" Stroke="Red" StrokeThickness="2" VerticalAlignment="Center"
-                              HorizontalAlignment="Center" Grid.Column="7" Grid.Row="1" />
-                        <TextBlock Text="Machine state:" Grid.Column="0" VerticalAlignment="Center"
-                                   HorizontalAlignment="Center" />
-                        <TextBlock x:Name="stateTextBLock" Text="Not started" Grid.Column="1"
-                                   VerticalAlignment="Center" HorizontalAlignment="Center" />
-                        <TextBlock Text="Clock ticks:" Grid.Column="2" VerticalAlignment="Center"
-                                   HorizontalAlignment="Center" />
-                        <TextBlock x:Name="clockTicksTextBLock" Text="0" Grid.Column="3" VerticalAlignment="Center"
-                                   HorizontalAlignment="Center" />
-                        <TextBlock Text="Read count:" Grid.Column="4" VerticalAlignment="Center"
-                                   HorizontalAlignment="Center" />
-                        <TextBlock x:Name="readCountTextBlock" Text="0" Grid.Column="5" VerticalAlignment="Center"
-                                   HorizontalAlignment="Center" />
-                        <TextBlock Text="Write count:" Grid.Column="6" VerticalAlignment="Center"
-                                   HorizontalAlignment="Center" />
-                        <TextBlock x:Name="writeCountTextBlock" Text="0" Grid.Column="7" VerticalAlignment="Center"
-                                   HorizontalAlignment="Center" />
+                            <RowDefinition/>
+                            <RowDefinition/>                        </Grid.RowDefinitions>
+                        <Button Name="statisticsNextButton" Width="75" Height="23" Content="Next step" Click="statisticsNextButton_Click" Grid.Column="0" Grid.Row="1"/>
+                        <Button Name="statisticsTickButton" Width="75" Height="23" Content="Next tick" Click="statisticsTickButton_Click"  Grid.Column="1" Grid.Row="1"/>
+                        <Button Name="statisticsRunButton" Width="75" Height="23" Content="Run" Click="statisticsRunButton_Click" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Reads:" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="1"/>
+                        <Line X1="0" X2="60" Y1="0" Y2="0" Stroke="DarkBlue" StrokeThickness="2" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5" Grid.Row="1"/>
+                        <TextBlock Text="Writes:" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="6" Grid.Row="1"/>
+                        <Line X1="0" X2="60" Y1="0" Y2="0" Stroke="Red" StrokeThickness="2" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="7" Grid.Row="1"/>
+                        <TextBlock Text="Machine state:" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="stateTextBLock" Text="Not started" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Clock ticks:" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <TextBlock x:Name="clockTicksTextBLock" Text="0" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Read count:" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock x:Name="readCountTextBlock" Text="0" Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock Text="Write count:" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        <TextBlock x:Name="writeCountTextBlock" Text="0" Grid.Column="7" VerticalAlignment="Center" HorizontalAlignment="Center" />
                     </Grid>
                 </Grid>
-            </TabItem>
+            </TabItem>          
         </TabControl>
     </Grid>
 </Window>

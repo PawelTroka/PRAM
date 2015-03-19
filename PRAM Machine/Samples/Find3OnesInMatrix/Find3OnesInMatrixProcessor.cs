@@ -24,20 +24,15 @@ procesorów i model rozwiązywania konfliktów zapisu w swoim algorytmie.
             _column = column;
             _size = size;
 
-            DataToRead = new MemoryAddress("Matrix", AddressInMatrix);
+            DataToRead = new MemoryAddress("Matrix", row,column);
 
-            if (_row >= _size - 2)
+            if (_column >= _size - 2)
                 Stop();
-        }
-
-        private int AddressInMatrix
-        {
-            get { return _row + _column*_size; }
         }
 
         public override dynamic Run(dynamic data)
         {
-            DataToRead = new MemoryAddress("Matrix", AddressInMatrix + TickCount + 1);
+            DataToRead = new MemoryAddress("Matrix", _row, _column + TickCount+1);
 
             if (data != 1)
                 Stop();

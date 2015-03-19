@@ -16,5 +16,5 @@ DEBUG;TRACE
 12-1381780322
 Gui\DisplayControl.xaml;Gui\MainWindow.xaml;Gui\MemoryCellView.xaml;Gui\ProcessorView.xaml;Gui\StatisticsDisplay.xaml;
 
-False
+True
 

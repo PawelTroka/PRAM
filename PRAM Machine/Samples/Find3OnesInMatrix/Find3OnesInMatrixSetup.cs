@@ -20,32 +20,22 @@ procesorów i model rozwiązywania konfliktów zapisu w swoim algorytmie.
         public static IPRAMMachine Setup(int size = 3, int limit = 2)
         {
             var processors = new List<Processor>();
-            for (int column = 0; column < size; column++)
-            {
-                for (int row = 0; row < size; row++)
-                {
+            for (int row = 0; row < size; row++)
+                for (int column = 0; column < size; column++)
                     processors.Add(new Find3OnesInMatrixProcessor(row, column, size));
-                }
-            }
+
             var memory = new PRAM<MemoryTypes.CRCW>();
             var random = new Random();
 
+            var matrix = new Matrix<int>(size, size);
 
+            for (int i = 0; i < matrix.RowsCount; i++)
+                for (int j = 0; j < matrix.ColumnsCount; j++)
+                    matrix[i, j] = (random.Next(limit));
 
-            var Matrix = new Matrix<int>(size, size);
-            for (int i = 0; i < Matrix.RowsCount; i++)
-            {
-                for (int j = 0; j < Matrix.ColumnsCount; j++)
-                {
-                    Matrix[i, j] = (random.Next(limit));
-                }
-            }
-            memory.AddNamedMemory("Nine", 9);
-            memory.AddNamedMemory("Matrix", Matrix);
+            memory.AddNamedMemory("Matrix", matrix);
 
             memory.AddNamedMemory("result", false);
-           // memory.AddNamedMemory("seven", 17);
-            memory.AddNamedMemory("Ten", 10);
 
             var machine = new PRAMMachine<MemoryTypes.CRCW>(processors, memory);
             return machine;
