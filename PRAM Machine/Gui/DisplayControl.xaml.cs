@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 using PRAM_Machine.Models;
 using PRAM_Machine.Machine;
 using PRAM_Machine.Memory;
@@ -34,6 +35,18 @@ namespace PRAM_Machine.Gui {
             processorsList = new List<ProcessorView>();
             memoryRows = new Dictionary<string, List<MemoryCellView>>();
             this.Loaded += new RoutedEventHandler(DisplayControl_Loaded);
+            this.SizeChanged += (o, e) =>
+            {
+               // this.Width = this.ActualWidth;
+                //this.Height = this.ActualHeight;
+                Dispatcher.BeginInvoke(DispatcherPriority.Background, (Action)delegate()
+                {
+                    if (machineStarted)
+                        drawAllArrows();
+                });
+
+            };
+           
         }
 
         void DisplayControl_Loaded(object sender, RoutedEventArgs e) {
@@ -115,6 +128,7 @@ namespace PRAM_Machine.Gui {
                     memoryCellView.SetValue(Grid.ColumnProperty, i + 1);
                     memoryCellView.SetValue(Grid.RowProperty, rowCount);
                     memoryGrid.Children.Add(memoryCellView);
+                    
                     memoryRows[kvp.Key].Add(memoryCellView);
                 }
             }
@@ -164,6 +178,9 @@ namespace PRAM_Machine.Gui {
             tipLineRight.Y2 = end.Y;
             tipLineRight.Stroke = new SolidColorBrush(arrowColor);
             tipLineRight.StrokeThickness = arrowThickness;
+            
+            
+            //body.RenderTransform = new TranslateTransform((body.X1 + body.X2) / 2, (body.Y1 + body.Y2) / 2);
 
             arrowPaintingArea.Children.Add(body);
             arrowPaintingArea.Children.Add(tipLineLeft);
@@ -207,26 +224,36 @@ namespace PRAM_Machine.Gui {
         public void updateView() {
             if (this.Machine != null) {
                 if (this.IsLoaded) {
-                    arrowPaintingArea.Children.Clear();
                     updateMemoryCellsGrid(machine.Model.PRAM);
                     updateProcessorsGrid(machine.Model.Processors);
-                    for (int i = 0; i < machine.Model.Processors.Count; i++) {
-                        if (machine.State == PRAMState.Reading) {
-                            var address = machine.Model.Processors[i].DataToRead;
-                            if (!address.Empty) {
-                                var p = processorsList[i];
-                                var m = memoryRows[address.MemoryName][address.Address];
-                                drawArrow(getMemoryCellLocation(m), getProcessorLocation(p));
-                            }
-                        }
-                        if (machine.State == PRAMState.Writing) {
-                            var address = machine.Model.Processors[i].DataToWrite;
-                            if (!address.Empty) {
-                                var p = processorsList[i];
-                                var m = memoryRows[address.MemoryName][address.Address];
-                                drawArrow(getProcessorLocation(p), getMemoryCellLocation(m));
-                            }
-                        }
+                    drawAllArrows();
+                }
+            }
+        }
+
+        private void drawAllArrows()
+        {
+            arrowPaintingArea.Children.Clear();
+            for (int i = 0; i < machine.Model.Processors.Count; i++)
+            {
+                if (machine.State == PRAMState.Reading)
+                {
+                    var address = machine.Model.Processors[i].DataToRead;
+                    if (!address.Empty)
+                    {
+                        var p = processorsList[i];
+                        var m = memoryRows[address.MemoryName][address.Address];
+                        drawArrow(getMemoryCellLocation(m), getProcessorLocation(p));
+                    }
+                }
+                if (machine.State == PRAMState.Writing)
+                {
+                    var address = machine.Model.Processors[i].DataToWrite;
+                    if (!address.Empty)
+                    {
+                        var p = processorsList[i];
+                        var m = memoryRows[address.MemoryName][address.Address];
+                        drawArrow(getProcessorLocation(p), getMemoryCellLocation(m));
                     }
                 }
             }

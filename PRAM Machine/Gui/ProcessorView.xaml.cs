@@ -19,10 +19,11 @@ namespace PRAM_Machine.Gui {
     public partial class ProcessorView : UserControl {
         public ProcessorView() {
             InitializeComponent();
-            this.SizeChanged += new SizeChangedEventHandler(ProcessorView_SizeChanged);
+            //this.SizeChanged += new SizeChangedEventHandler(ProcessorView_SizeChanged);
         }
 
         void ProcessorView_SizeChanged(object sender, SizeChangedEventArgs e) {
+
             this.Height = Math.Min(this.ActualWidth, this.ActualHeight);
             this.Width = Math.Min(this.ActualWidth, this.ActualHeight);
         }

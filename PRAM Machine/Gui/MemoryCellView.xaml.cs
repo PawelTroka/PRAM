@@ -33,7 +33,7 @@ namespace PRAM_Machine.Gui {
 
         public MemoryCellView() {
             InitializeComponent();
-            this.SizeChanged += new SizeChangedEventHandler(MemoryCellView_SizeChanged); 
+//           this.SizeChanged += new SizeChangedEventHandler(MemoryCellView_SizeChanged); 
         }
 
         void MemoryCellView_SizeChanged(object sender, SizeChangedEventArgs e) {

@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComplexDataTypes\Matrix.cs" />
+    <Compile Include="Gui\CanvasAutoSize.cs" />
     <Compile Include="Gui\DisplayControl.xaml.cs">
       <DependentUpon>DisplayControl.xaml</DependentUpon>
     </Compile>
@@ -89,6 +90,8 @@
     <Compile Include="Samples\ListRanking\ListRankingSetup.cs" />
     <Compile Include="Samples\LogicalAnd\LogicalAndProcessor.cs" />
     <Compile Include="Samples\LogicalAnd\LogicalAndSetup.cs" />
+    <Compile Include="Samples\MatrixMultiplicationUsingMatrixDataType\MatrixMultiplicationUsingMatrixDataTypeProcessor.cs" />
+    <Compile Include="Samples\MatrixMultiplicationUsingMatrixDataType\MatrixMultiplicationUsingMatrixDataTypeSetup.cs" />
     <Compile Include="Samples\MatrixMultiplication\MatrixMultiplicationProcessor.cs" />
     <Compile Include="Samples\MatrixMultiplication\MatrixMultiplicationSetup.cs" />
     <Compile Include="Samples\Sorting\SortingProcessor.cs" />

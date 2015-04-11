@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 5-190578753
 
-42-2024776238
+452121292826
 12-1381780322
 Gui\DisplayControl.xaml;Gui\MainWindow.xaml;Gui\MemoryCellView.xaml;Gui\ProcessorView.xaml;Gui\StatisticsDisplay.xaml;
 
-False
+True
 

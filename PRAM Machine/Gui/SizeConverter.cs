@@ -9,9 +9,13 @@ namespace PRAM_Machine.Gui {
 
         #region IValueConverter Members
 
-        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture) {
-            int result = int.Parse(value.ToString());
-            int offset = int.Parse(parameter.ToString());
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            //if (value.ToString() == "NaN" || (double)value==double.NaN)
+                //return double.NaN;
+            
+            var result = (int)Math.Round(double.Parse(value.ToString()),0);
+            var offset = (int)Math.Round(double.Parse(parameter.ToString()),0);
             return (result - offset).ToString();
         }
 
